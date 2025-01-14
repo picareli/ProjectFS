@@ -1,0 +1,85 @@
+:root
+{
+    background-color: white;
+
+    margin: 0;
+
+    -unity-font-definition: url("W95FA.otf");
+}
+
+.desktop
+{
+    margin: 0;
+    padding: 10px;
+
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+
+    height: 95%;
+    background-color: darkblue;
+}
+
+.desktop Button
+{
+    padding: 0; 
+    margin-top: 15px;
+
+    width: 100px;
+    height: 120px;
+
+    border-width: 0;
+    background-color: transparent;
+}
+
+.desktop Image
+{
+    background-color: white;
+
+    width: 100px;
+    height: 100px;
+}
+
+.desktop Label
+{
+    color: white;
+    font-size: 18px;
+}
+
+.taskbar
+{
+    margin: 0;
+
+    flex-direction: row;
+    height: 5%;
+    background-color: darkgray;
+}
+
+.start-button
+{
+    padding: 0;
+    margin: 4px 0 4px 4px;
+
+    font-size: 28px;
+    -unity-font-style: bold;
+
+    background-color: darkgray;
+
+    width: 200px;
+
+    border-width: 4px;
+    border-color: white black black white;
+
+    transition: 0.1s all;
+}
+
+.start-button:hover
+{
+    background-color: gray;
+}
+
+.start-button:active
+{
+    color: darkgray;
+    background-color: gray;
+    border-color: black white white black;
+}
